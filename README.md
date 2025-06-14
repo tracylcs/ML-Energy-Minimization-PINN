@@ -15,9 +15,9 @@ $$
 E[u] = \int_{0}^{1} W(u_x) \, dx
 $$
 
-where $`W(u_x) = (u_x + \gamma)^2 (1 - \gamma - u_x)^2 `$** is a **double-well potential function** with minima at **$` u_x = 0 `$** and **$` u_x = 1 `$**.
+where $`W(u_x) = (u_x + \gamma)^2 (1 - \gamma - u_x)^2 `$ is a **double-well potential function** with minima at $` u_x = 0 `$** and **$` u_x = 1 `$.
 
-We seek a function **$` u(x) `$** satisfying boundary constraints:
+We seek a function $` u(x) `$ satisfying boundary constraints:
 
 $$
 u(0) = 0, \quad u(1) = \gamma
@@ -26,10 +26,10 @@ $$
 ## **Methods**
 Four different **PINN architectures** are used based on different formulations of the problem:
 
-1. **Method 1:** Direct minimization for **$` \gamma \geq 1 `$**
-2. **Method 2:** Symmetry transformation for **$` \gamma \leq 0 `$**
-3. **Method 3:** Standard approach for **$` \gamma \in [0.5, 1] `$**
-4. **Method 4:** Alternative transformation for **$` \gamma \in [0, 0.5] `$**
+1. **Method 1:** Direct minimization for $` \gamma \geq 1 `$
+2. **Method 2:** Symmetry transformation for $` \gamma \leq 0 `$
+3. **Method 3:** Standard approach for $` \gamma \in [0.5, 1] `$
+4. **Method 4:** Alternative transformation for $` \gamma \in [0, 0.5] `$
 
 Each method applies **loss function adaptations**, boundary constraints, and **self-adaptive weights** to ensure accurate learning.
 
