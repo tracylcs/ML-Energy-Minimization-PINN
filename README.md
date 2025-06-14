@@ -64,9 +64,3 @@ This work is based on prior research in PINNs and deep learning for PDEs:
 - [Raissi et al., 2018] Physics-Informed Neural Networks: A Deep Learning Framework for Solving PDEs.
 - [McClenny & Braga-Neto, 2020] Self-adaptive PINNs using attention mechanisms.
 - Various references on molecular and material science.
-
-## **License**
-This project is licensed under **MIT License**.  
-Author: **Lee Chui Shan**  
-Supervisor: **Dr. Zhiwen Zhang**  
-Affiliation: **The University of Hong Kong**
