@@ -15,7 +15,7 @@ $$
 E[u] = \int_{0}^{1} W(u_x) \, dx
 $$
 
-where $`W(u_x) = (u_x + \gamma)^2 (1 - \gamma - u_x)^2 `)** is a **double-well potential function** with minima at **$` u_x = 0 `$** and **$` u_x = 1 `$**.
+where $`W(u_x) = (u_x + \gamma)^2 (1 - \gamma - u_x)^2 `$** is a **double-well potential function** with minima at **$` u_x = 0 `$** and **$` u_x = 1 `$**.
 
 We seek a function **$` u(x) `$** satisfying boundary constraints:
 
