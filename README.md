@@ -9,18 +9,18 @@ Elastic molecular crystals are widely used in **sensors, actuators, and electron
 This project builds a **1D PINN-based energy minimization framework**, which can potentially be extended to **higher-dimensional problems**.
 
 ## **Mathematical Formulation**
-For a **1D elastic crystal**, the potential energy functional is defined as:
+For a **1D elastic crystal**, the potential energy is defined as:
 
 $$
-E[u] = \int_{0}^{1} W(u_x) \, dx
+E_\gamma [u] = \int_{0}^{1} W_\gamma (u'(x)) dx
 $$
 
-where $`W(u_x) = (u_x + \gamma)^2 (1 - \gamma - u_x)^2 `$ is a **double-well potential function** with minima at $` u_x = 0 `$** and **$` u_x = 1 `$.
+for some real constant $` \gamma `$, where $`W_\gamma (z) = (z + \gamma)^2 (1 - \gamma - z)^2 `$ is a double-well potential function with minima at $` z = 0 `$ and $` z = 1 `$.
 
-We seek a function $` u(x) `$ satisfying boundary constraints:
+We seek an **energy-minimizing function** $` u(x) `$ satisfying boundary constraints:
 
 $$
-u(0) = 0, \quad u(1) = \gamma
+u(0) = u(1) = 0 .
 $$
 
 ## **Methods**
