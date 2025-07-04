@@ -1,7 +1,7 @@
 # Machine Learning for Energy Minimization Using PINN
 
 ## Overview
-This project investigates **deep learning methods for scientific computing problems**, specifically focusing on **energy minimization in elastic crystals**. The goal is to determine how materials should deform to achieve **minimum potential energy** under **Dirichlet boundary constraints**. Inspired by **Physics-Informed Neural Networks (PINNs)**, this approach leverages neural networks to approximate solutions to this optimization problem. The complete results can be found in this [report](report.pdf).
+This project investigates **deep learning methods for scientific computing problems**, specifically focusing on **energy minimization in elastic crystals**. The goal is to determine how materials should deform to achieve **minimum potential energy** under **Dirichlet boundary constraints**. Inspired by **Physics-Informed Neural Networks (PINNs)**, this approach leverages neural networks to approximate solutions to this optimization problem. The complete results can be found in this [report](report.pdf). The implementation is given in [`src`](src).
 
 ## Background
 Elastic molecular crystals are widely used in **sensors, actuators, and electronics** due to their mechanical flexibility. The stable geometry of these crystals corresponds to **minimum energy configurations**, making it an essential problem in material science. Traditionally, solving these problems involves numerical PDE solvers, but deep learning—especially **PINNs**—offers a promising alternative.
